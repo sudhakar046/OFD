@@ -8,20 +8,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OrphanFoundation", "http://
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51823"
-		Debug.AspNetCompiler.PhysicalPath = "D:\Projects\OrphanFoundation\"
+		Debug.AspNetCompiler.PhysicalPath = "D:\OFD\OFD\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51823\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_51823"
-		Release.AspNetCompiler.PhysicalPath = "D:\Projects\OrphanFoundation\"
+		Release.AspNetCompiler.PhysicalPath = "D:\OFD\OFD\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51823\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "D:\Projects\OrphanFoundation\"
+		SlnRelativePath = "D:\OFD\OFD"
 	EndProjectSection
 EndProject
 Global
