@@ -1,0 +1,79 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ff9900; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #000066; SCROLLBAR-SHADOW-COLOR: #ffffff; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #ffcc00; SCROLLBAR-TRACK-COLOR: #ffcc00; FONT-FAMILY: Verdana, Arial, Helvetica; SCROLLBAR-DARKSHADOW-COLOR: #000066; SCROLLBAR-BASE-COLOR: #ff9900; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #ffffff; TEXT: #ffffff
+}
+P {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 14pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+P.Footer {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+P.Caption {
+	FONT-SIZE: 13pt; COLOR: #bb3102; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.PBlockHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #bb3102; LINE-HEIGHT: 14pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.Basic {
+	FONT-SIZE: 1pt; COLOR: #bb3102; LINE-HEIGHT: 0pt
+}
+.Title {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #bb3102; TEXT-DECORATION: underline
+}
+.SubTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 14pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Verdana, Helvetica; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #bb3102; FONT-FAMILY: Arial, Verdana, Helvetica
+}
+A.VisitedA {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #bb3102; FONT-FAMILY: Arial, Verdana, Helvetica
+}
+A.Footer {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Verdana, Helvetica; TEXT-DECORATION: none
+}
+A.Footer:visited {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Verdana, Helvetica; TEXT-DECORATION: none
+}
+A.Footer:active {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Verdana, Helvetica; TEXT-DECORATION: none
+}
+A.Footer:hover {
+	FONT-SIZE: 8pt; COLOR: #fff000; FONT-FAMILY: Arial, Verdana, Helvetica
+}
+UL {
+	FONT-SIZE: 9pt; LIST-STYLE-IMAGE: url(../FireImages/arrow.gif); COLOR: #000000; LINE-HEIGHT: 16pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.Textarea70300 {
+	BORDER-RIGHT: black 1px groove; BORDER-TOP: black 1px groove; FONT-SIZE: 9pt; BORDER-LEFT: black 1px groove; WIDTH: 300px; COLOR: #000000; BORDER-BOTTOM: black 1px groove; FONT-FAMILY: Verdana, Arial, Helvetica; HEIGHT: 70px
+}
+.Text150 {
+	BORDER-RIGHT: black 1px groove; BORDER-TOP: black 1px groove; FONT-SIZE: 9pt; BORDER-LEFT: black 1px groove; WIDTH: 150px; COLOR: #000000; BORDER-BOTTOM: black 1px groove; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+#Button70 {
+	BORDER-RIGHT: #efefef 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #efefef 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #efefef 1px solid; WIDTH: 70px; CURSOR: hand; COLOR: #efefef; PADDING-TOP: 0px; BORDER-BOTTOM: #efefef 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #909090
+}
+#ButtonHover70 {
+	BORDER-RIGHT: #909090 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #909090 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #909090 1px solid; WIDTH: 70px; CURSOR: hand; COLOR: #909090; PADDING-TOP: 0px; BORDER-BOTTOM: #909090 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #efefef
+}
+.PRed {
+	FONT-SIZE: 9pt; COLOR: #ff0000; LINE-HEIGHT: 14pt
+}
+.TDFirstAlternate {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.TDSecondAlternate {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #efc18a
+}
+.just
+{
+	text-align:right ;
+}

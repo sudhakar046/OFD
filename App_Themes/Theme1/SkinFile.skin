@@ -1,0 +1,23 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+
+ <asp:TextBox  style="BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Trebuchet MS; BACKGROUND-COLOR: #f1f1f1" runat="server"></asp:TextBox>
+ <asp:Button  style="BORDER-RIGHT: #3094be 1px solid; BORDER-TOP: #badeed 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #badeed 1px solid; COLOR: #667788; BORDER-BOTTOM: #3094be 1px solid; FONT-FAMILY: Trebuchet MS; BACKGROUND-COLOR: #acacac"  runat ="server"  />
+ <asp:Label  runat ="server" style="FONT-WEIGHT: bold; FONT-SIZE: 11px;FONT-FAMILY: Trebuchet MS;BACKGROUND-COLOR: #f1f1f1" ></asp:Label>
+  <asp:DropDownList  runat="server" style="BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Trebuchet MS; BACKGROUND-COLOR: #f1f1f1" ></asp:DropDownList>
+  
+  <asp:RadioButtonList runat ="server" style="FONT-WEIGHT: bold; FONT-SIZE: 11px;FONT-FAMILY: Trebuchet MS;BACKGROUND-COLOR: #f1f1f1" ></asp:RadioButtonList>
