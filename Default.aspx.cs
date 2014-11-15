@@ -23,6 +23,7 @@ public partial class _Default : System.Web.UI.Page
         da.Fill(ds, "abc");
         gvlist.DataSource = ds.Tables[0];
         gvlist.DataBind();
+        //here is code logic completed...
         
     }
 }
