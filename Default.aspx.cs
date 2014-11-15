@@ -12,7 +12,6 @@ using System.Xml.Linq;
 using System.Data.SqlClient;
 public partial class _Default : System.Web.UI.Page 
 {
-    // page load
     protected void Page_Load(object sender, EventArgs e)
     {
         string connStr = ConfigurationManager.ConnectionStrings["CnStr"].ConnectionString;
@@ -24,7 +23,5 @@ public partial class _Default : System.Web.UI.Page
         da.Fill(ds, "abc");
         gvlist.DataSource = ds.Tables[0];
         gvlist.DataBind();
-        //here is code logic completed...
-        
     }
 }
