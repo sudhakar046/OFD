@@ -15,14 +15,14 @@ public partial class _Default : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         string connStr = ConfigurationManager.ConnectionStrings["CnStr"].ConnectionString;
-        SqlConnection cn = new SqlConnection(@"Data Source=NAVITHASUDHA-PC\SQLEXPRESS;Initial Catalog=ORD;User ID=sa;Password=mca;");
+        SqlConnection cn = new SqlConnection(connStr);
         cn.Open();
         SqlCommand cmd = new SqlCommand("select * from tbl_MemberMaster", cn);
         SqlDataAdapter da = new SqlDataAdapter(cmd);
         DataSet ds = new DataSet();
         da.Fill(ds, "abc");
-        GridView1.DataSource = ds.Tables[0];
-        GridView1.DataBind();
+        gvlist.DataSource = ds.Tables[0];
+        gvlist.DataBind();
         
     }
 }
