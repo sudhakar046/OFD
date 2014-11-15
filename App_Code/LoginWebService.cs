@@ -23,7 +23,7 @@ public class LoginWebService : System.Web.Services.WebService {
 
     [WebMethod]
     public string HelloWorld() {
-        return "Hello World";
+        return "Hello Sudhakar";
     }
     [WebMethod]
     public int CheckUseLoginDetails(string UserName,string Password)
